@@ -39,17 +39,8 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 /* NOTES:
    The goal of refactoring this function was to extract all of the complex logic out of this file
 
-// // pass in : lat, lng, cb
-// var lat = 40.5377063;
-// var lng = -74.8507131;
-
-// take argv.address
-
- The goal of refactoring this function was to extract all of the complex logic out of this file
-
-
-// forecast secret : c1bb4330747712ac7b4110704aa36d6f
-// api -callback: https://api.darksky.net/forecast/c1bb4330747712ac7b4110704aa36d6f/37.8267,-122.4233
+// forecast secret : get from forecast.io
+// api -callback: https://api.darksky.net/forecast/${forecast secret}/37.8267,-122.4233
 // while .command({}) let us created special things for the command, options lets us
 
 / * Note the args here. The middle one doesn't really matter to us at this point but the last arg
